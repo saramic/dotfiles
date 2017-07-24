@@ -94,9 +94,16 @@ brew install tree
 
 # development
 brew install neovim
+brew install postgresql
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
 
 # ruby dev
 brew install rbenv
+
+# messaging
+brew cask install slack
 
 # Remove outdated versions from the cellar.
 brew cleanup
