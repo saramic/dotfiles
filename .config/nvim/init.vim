@@ -72,14 +72,22 @@ au BufRead,BufNewFile *.t set syntax=perl
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file
+" Centralize backups, swapfiles and undo history
+set backupdir=~/.vim/backups
+set directory=~/.vim/swaps
+if exists("&undodir")
+	set undodir=~/.vim/undo
 endif
+
 set history=50		" keep 50 lines of command line history
+
+" Show the cursor position
 set ruler		" show the cursor position all the time
+
+" Show the (partial) command as it’s being typed
 set showcmd		" display incomplete commands
+
+" Highlight dynamically as pattern is typed
 set incsearch		" do incremental searching
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
