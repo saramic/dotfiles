@@ -102,6 +102,12 @@ brew cask install vagrant-manager
 # ruby dev
 brew install rbenv
 
+# clojure dev
+brew install leiningen
+
+# f#
+brew install mono
+
 # messaging
 brew cask install slack
 
