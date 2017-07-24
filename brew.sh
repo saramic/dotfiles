@@ -92,5 +92,11 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# development
+brew install neovim
+
+# ruby dev
+brew install rbenv
+
 # Remove outdated versions from the cellar.
 brew cleanup
