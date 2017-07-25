@@ -102,6 +102,10 @@ brew cask install vagrant-manager
 # ruby dev
 brew install rbenv
 
+# node dev
+brew install nodenv
+brew install yarn
+
 # clojure dev
 brew install leiningen
 
