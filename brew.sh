@@ -118,5 +118,8 @@ brew install mono
 # messaging
 brew cask install slack
 
+# AWS
+brew install awscli
+
 # Remove outdated versions from the cellar.
 brew cleanup
