@@ -115,11 +115,17 @@ brew install leiningen
 # f#
 brew install mono
 
+# R-lang
+brew install r
+
 # messaging
 brew cask install slack
 
 # AWS
 brew install awscli
+
+# utilities
+brew install jq
 
 # Remove outdated versions from the cellar.
 brew cleanup
