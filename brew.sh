@@ -126,6 +126,8 @@ brew install awscli
 
 # utilities
 brew install jq
+brew install ag
+brew install base64
 
 # Remove outdated versions from the cellar.
 brew cleanup
