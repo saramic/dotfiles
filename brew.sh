@@ -106,6 +106,9 @@ brew install rbenv
 brew install nodenv
 brew install yarn
 
+# java dev
+brew cask install java
+
 # clojure dev
 brew install leiningen
 
