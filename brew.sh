@@ -122,6 +122,10 @@ brew install r
 # messaging
 brew cask install slack
 
+# media
+brew install ffmpeg
+brew install mpg123
+
 # AWS
 brew install awscli
 
