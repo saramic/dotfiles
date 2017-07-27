@@ -98,6 +98,7 @@ brew install postgresql
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
+brew install tmux
 
 # ruby dev
 brew install rbenv
