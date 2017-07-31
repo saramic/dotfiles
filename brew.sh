@@ -99,6 +99,8 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew install tmux
+brew cask install sublime-text
+brew cask install atom
 
 # ruby dev
 brew install rbenv
