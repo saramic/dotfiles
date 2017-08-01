@@ -89,6 +89,7 @@ brew install lynx
 #brew install rename
 #brew install ssh-copy-id
 brew install tree
+brew install watch
 #brew install vbindiff
 #brew install zopfli
 
