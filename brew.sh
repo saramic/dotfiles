@@ -99,6 +99,7 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew install tmux
+brew install tmate # instant terminal sharing (via ssh and tmate.io)
 brew cask install sublime-text
 brew cask install atom
 
