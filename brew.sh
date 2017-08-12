@@ -103,6 +103,7 @@ brew install tmux
 brew install tmate # instant terminal sharing (via ssh and tmate.io)
 brew cask install sublime-text
 brew cask install atom
+brew install redis
 
 # chef
 brew cask install chefdk
@@ -132,6 +133,7 @@ brew cask install slack
 # media
 brew install ffmpeg
 brew install mpg123
+brew cask install gimp
 
 # AWS
 brew install awscli
