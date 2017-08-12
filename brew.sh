@@ -122,6 +122,9 @@ brew cask install java
 # clojure dev
 brew install leiningen
 
+# elixir dev
+brew install elixir
+
 # f#
 brew install mono
 
