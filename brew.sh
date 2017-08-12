@@ -104,6 +104,7 @@ brew install tmate # instant terminal sharing (via ssh and tmate.io)
 brew cask install sublime-text
 brew cask install atom
 brew install redis
+brew install couchdb
 
 # chef
 brew cask install chefdk
