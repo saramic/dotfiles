@@ -125,6 +125,17 @@ brew install leiningen
 # elixir dev
 brew install elixir
 
+# python dev
+brew install python # python2 and pip2
+#brew install python3
+
+# selenium testing
+brew cask install geckodriver
+brew cask install firefox
+
+# eclipse
+brew cask install eclipse-java
+
 # f#
 brew install mono
 
