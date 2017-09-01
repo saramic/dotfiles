@@ -188,3 +188,6 @@
 	insteadOf = "gist:"
 [pull]
 	rebase = true
+[user]
+	email = saramic@gmail.com
+	name = Michael Milewski
