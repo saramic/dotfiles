@@ -34,8 +34,11 @@ export MANPAGER='less -X';
 export GPG_TTY=$(tty);
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if [ $(uname) != "Linux" ]
+  then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
 
 # mono
 export MONO_GAC_PREFIX="/usr/local"
