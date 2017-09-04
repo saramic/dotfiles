@@ -12,3 +12,7 @@ sudo yum -y install tmux
 
 # tree
 sudo yum -y install tree
+
+# ruby 2.3
+sudo yum -y remove ruby20
+sudo yum -y install ruby23 ruby23-devel rubygems23
