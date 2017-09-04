@@ -8,4 +8,7 @@ sudo yum -y install readline-devel git make zlib-devel sqlite-devel.x86_64 gcc g
 sudo yum -y install ruby-devel rubygems compass
 
 # tmux
-sudo yum install tmux
+sudo yum -y install tmux
+
+# tree
+sudo yum -y install tree
