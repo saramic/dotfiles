@@ -1,6 +1,7 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+"colorscheme solarized
+
 let g:solarized_termtrans=1
 
 " Make Vim more useful
@@ -149,5 +150,11 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Unmanaged plugin (manually installed and updated)
 Plug '~/my-prototype-plugin'
 
+" railscast theme
+Plug 'jpo/vim-railscasts-theme'
+
 " Initialize plugin system
 call plug#end()
+
+"highlight Normal ctermfg=grey ctermbg=black
+colorscheme railscasts
