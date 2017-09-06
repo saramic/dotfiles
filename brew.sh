@@ -115,6 +115,7 @@ brew install rbenv
 # node dev
 brew install nodenv
 brew install yarn
+brew install bower
 
 # java dev
 brew cask install java
