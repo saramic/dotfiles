@@ -81,6 +81,7 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
+brew install ghostscript
 brew install lua
 brew install lynx
 #brew install p7zip
@@ -131,8 +132,9 @@ brew install python # python2 and pip2
 #brew install python3
 
 # selenium testing
-brew cask install geckodriver
+brew install geckodriver
 brew cask install firefox
+brew install chromedriver
 
 # eclipse
 brew cask install eclipse-java
@@ -161,3 +163,4 @@ brew install base64
 
 # Remove outdated versions from the cellar.
 brew cleanup
+brew install watchman
