@@ -106,6 +106,7 @@ brew cask install sublime-text
 brew cask install atom
 brew install redis
 brew install couchdb
+brew install neo4j
 
 # chef
 brew cask install chefdk
