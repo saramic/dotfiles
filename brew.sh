@@ -162,6 +162,12 @@ brew install jq
 brew install ag
 brew install base64
 
+# OTHER optional
+#
+# csound for lua chapter in 7 more lang
+# brew tap csound/csound
+# brew install csound
+
 # Remove outdated versions from the cellar.
 brew cleanup
 brew install watchman
