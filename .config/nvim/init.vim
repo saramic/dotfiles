@@ -31,6 +31,16 @@ Plug '~/my-prototype-plugin'
 Plug 'crusoexia/vim-monokai'
 Plug 'shougo/unite.vim'
 
+" rust
+Plug 'rust-lang/rust.vim'
+
+" cpp
+Plug 'octol/vim-cpp-enhanced-highlight'
+
+" lua
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-lua-ftplugin'
+
 " Add plugins to &runtimepath
 call plug#end()
 
