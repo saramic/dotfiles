@@ -171,3 +171,6 @@ brew install base64
 # Remove outdated versions from the cellar.
 brew cleanup
 brew install watchman
+
+# RabbitMQ
+brew install rabbitmq
