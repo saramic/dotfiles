@@ -130,7 +130,9 @@ brew install elixir
 
 # python dev
 brew install python # python2 and pip2
-#brew install python3
+brew linkapps python
+brew install python3
+brew linkapps python3
 
 # selenium testing
 brew install geckodriver
@@ -174,3 +176,10 @@ brew install watchman
 
 # RabbitMQ
 brew install rabbitmq
+
+# OpenCV
+# assuming brew install python3
+brew install opencv
+
+# GNU debugger
+brew install gdb
