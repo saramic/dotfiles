@@ -183,3 +183,6 @@ brew install opencv
 
 # GNU debugger
 brew install gdb
+
+# Documentation
+brew install dasht

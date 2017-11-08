@@ -41,6 +41,9 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-lua-ftplugin'
 
+" dasht for documentation
+Plug 'sunaku/vim-dasht'
+
 " Add plugins to &runtimepath
 call plug#end()
 
@@ -157,4 +160,18 @@ set t_Co=256
 " look into a light scheme like below
 "colorscheme basal-light
 
-:abbreviate f FZF
+noremap <Leader>f :FZF<Return>
+
+" Dasht
+" search related docsets
+nnoremap <Leader>k :Dasht<Space>
+" search ALL the docsets
+nnoremap <Leader><Leader>k :Dasht!<Space>
+" search related docsets
+nnoremap <silent> <Leader>K :call Dasht([expand('<cword>'), expand('<cWORD>')])<Return>
+" search ALL the docsets
+nnoremap <silent> <Leader><Leader>K :call Dasht([expand('<cword>'), expand('<cWORD>')], '!')<Return>
+" search related docsets
+vnoremap <silent> <Leader>K y:<C-U>call Dasht(getreg(0))<Return>
+" search ALL the docsets
+vnoremap <silent> <Leader><Leader>K y:<C-U>call Dasht(getreg(0), '!')<Return>

@@ -50,3 +50,6 @@ shopt -s histappend;
 
 # a serious approach to command line
 set -o vi
+
+export PATH="$HOME/.cargo/bin:$PATH"
+source /usr/local/bin/virtualenvwrapper.sh
