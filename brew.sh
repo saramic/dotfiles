@@ -191,3 +191,6 @@ brew install gdb
 
 # Documentation
 brew install dasht
+
+# cool terminal stuff
+brew install fortune cowsay lolcat
