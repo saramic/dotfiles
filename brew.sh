@@ -118,6 +118,11 @@ brew install rbenv
 brew install nodenv
 brew install yarn
 brew install bower
+brew install node@6
+brew install graphviz
+
+# log analysis?
+#brew install goaccess
 
 # java dev
 brew cask install java
