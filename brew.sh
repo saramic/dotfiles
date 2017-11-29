@@ -184,7 +184,12 @@ brew install rabbitmq
 
 # OpenCV
 # assuming brew install python3
-brew install opencv
+# pip3 install numpy scipy scikit-learn matplotlib mahotas
+# pip3 install -U scikit-image
+# --without-python (python2)
+brew install opencv3 --with-contrib --with-python3 --without-python
+# test with
+# python3 -c 'import cv2'
 
 # GNU debugger
 brew install gdb
