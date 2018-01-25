@@ -34,6 +34,9 @@ Plug 'shougo/unite.vim'
 " rust
 Plug 'rust-lang/rust.vim'
 
+" elixir
+Plug 'elixir-editors/vim-elixir'
+
 " cpp
 Plug 'octol/vim-cpp-enhanced-highlight'
 
