@@ -199,3 +199,9 @@ brew install dasht
 
 # cool terminal stuff
 brew install fortune cowsay lolcat
+
+# exercism coding exercises
+brew install exercism
+
+# sc the spreadsheet calculator - http://www.linuxjournal.com/article/10699
+brew install https://gist.github.com/geoff-codes/d8c16ada1de10e6387b3/raw/sc.rb
