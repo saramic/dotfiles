@@ -94,6 +94,9 @@ brew install watch
 #brew install vbindiff
 #brew install zopfli
 
+# png image optimization
+brew install pngcrush
+
 # development
 brew install neovim
 brew install postgresql
