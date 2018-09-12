@@ -16,3 +16,7 @@ sudo yum -y install tree
 # ruby 2.3
 sudo yum -y remove ruby20
 sudo yum -y install ruby23 ruby23-devel rubygems23
+
+# node
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
+sudo yum -y nodejs
