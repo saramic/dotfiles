@@ -163,6 +163,8 @@ brew cask install slack
 brew install ffmpeg
 brew install mpg123
 brew cask install gimp
+# inkskape
+brew install caskformula/caskformula/inkscape
 
 # AWS
 brew install awscli
