@@ -58,9 +58,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 #export PATH="/usr/local/Cellar/python3/3.6.3/bin:$PATH"
 
 # Virtual Environment Wrapper
-VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+#VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 #VIRTUALENVWRAPPER_PYTHON=/usr/local/Cellar/python3/3.6.3/bin/python3
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 # cowsay all the way
 if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune -a -x /usr/local/bin/lolcat ]; then
