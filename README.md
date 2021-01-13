@@ -1,3 +1,12 @@
+# Time to ZSH?
+
+look at
+
+- ohmyzsh
+- https://github.com/rupa/z
+- https://github.com/zsh-users/zsh-syntax-highlighting
+- https://github.com/markryall/dotfiles/blob/master/shell/aliases/dvcs.sh
+
 # Mathias’s dotfiles
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
