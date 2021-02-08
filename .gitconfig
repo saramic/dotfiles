@@ -122,11 +122,11 @@
 	old = red # deletions
 	new = green # additions
 
-#[color "status"]
-#
-#	added = yellow
-#	changed = green
-#	untracked = cyan
+[color "status"]
+
+	added = green
+	changed = red
+	untracked = cyan
 
 [commit]
 
