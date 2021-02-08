@@ -1,0 +1,52 @@
+{
+	"window.zoomLevel": 4,
+	"code-runner.saveAllFilesBeforeRun": true,
+	"code-runner.customCommand": "bin/tcr.sh",
+	"code-runner.runInTerminal": true,
+	"files.autoSave": "onFocusChange",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.autoFixOnSave": true,
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"ruby.format": "rufo",
+	"[ruby]": {
+		"editor.defaultFormatter": "jnbt.vscode-rufo"
+	},
+	"rust.format": "rls",
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"python.jediEnabled": false,
+	"files.exclude": {
+		"**/*.pyc": true,
+		"**/__pycache__": true
+	},
+	"workbench.panel.defaultLocation": "right",
+	"explorer.confirmDelete": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"prettier.disableLanguages": ["rust", "clang", "cpp", "C++"],
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"liveshare.featureSet": "insiders",
+	"solargraph.diagnostics": true,
+	"solargraph.formatting": true,
+	"terminal.integrated.fontSize": 14,
+	"C_Cpp.updateChannel": "Insiders",
+    "clang-format.executable": "/usr/local/bin/clang-format",
+		"python.languageServer": "Pylance",
+		"workbench.editorAssociations": [
+			{
+				"viewType": "jupyter.notebook.ipynb",
+				"filenamePattern": "*.ipynb"
+			}
+		]
+	// "C_Cpp.updateChannel": "Insiders"
+}
