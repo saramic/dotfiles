@@ -162,3 +162,6 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# use intel specific brew
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
